@@ -7,6 +7,11 @@ SOA code room Hackathon SummerHacks
 
 live site : http://akgware.rf.gd/?i=1
 
+### Theme Used and Color Theme
+`Summer Theme`
+`Color Theme used 9`
+[https://summerhacks.netlify.app/theme.html](https://summerhacks.netlify.app/theme.html) <br>
+
 ### Technologies Used
 `<HTML, CSS, JS> ` <br>
 `<TailWind CSS> `<br>
