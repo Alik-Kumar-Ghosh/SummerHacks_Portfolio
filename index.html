@@ -1,23 +1,358 @@
-<!-- 
-    Summer Hacks
-    SOA Code Room
-    Project Template
-    Use this template: https://github.com/SOACodeRoom/summerhacks-projectName/generate
-    index.html: You will write your html code for your portfolio website here.
- -->
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/personal-data.png" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/maintail.css">
+    <link rel="stylesheet" href="./css/myStyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="intro">
+        <div class="intro-text">
+        <h1 class="hide">
+        <span class="text">Welcome You</span>
+        </h1>
+        <h1 class="hide">
+        <span class="text">To</span>
+        </h1>
+        <h1 class="hide">
+        <span class="text">My Portfolio</span>
+        </h1>
+        </div>
+    </div>
+        <div class="slider"></div>
+        <div class="home-area" id="particles-js"></div>
+         <img class="fullscreen" src="./assets/nasa-Q1p7bh3SHj8-unsplash (1).jpg">
+          <header class="text-gray-600 body-font">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+              <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <span class="ml-3 text-xl text-color-red ">AKG</span>
+              </a>
+              <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-green-900 text-color-orange"  href="https://github.com/Alik-Kumar-Ghosh">Github</a>
+                <a class="mr-5 hover:text-green-900 text-color-orange" href="https://www.linkedin.com/in/alik-kumar-ghosh-9638571a6">Linkedin</a>
+                <a class="mr-5 hover:text-green-900 text-color-orange" href="https://www.instagram.com/alikghosh09/">Instagram</a>
+              </nav>
+              <button class="inline-flex items-center bg-red-600 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0 " onclick="myDarkmode()" > 🌓
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
+          </header>
+          <section class="text-gray-600 body-font">
+            <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+              <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 class="title-font sm:text-6xl text-3xl mb-4 font-medium text-color-red">Hello🙏Its ,
+                  <br class="hidden lg:inline-block">Alik Kumar Ghosh
+                </h1>
+                <p class="mb-2 sm:text-2xl leading-relaxed text-color-orange">1st year student (CSE) at ITER,SOA</p>
+                <p class="mb-8 sm:text-1xl leading-relaxed text-color-orange">Programmer by passion</p>
+                <div class="flex justify-center">
+                  <a href="https://github.com/Alik-Kumar-Ghosh">
+                  <button class="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-900 rounded text-lg">Github</button>
+                  </a>
+                  <a href="https://www.linkedin.com/in/alik-kumar-ghosh-9638571a6">
+                  <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-10 focus:outline-none hover:bg-gray-900 rounded text-lg">Linkedin</button>
+                  </a>
+                </div>
+              </div>
+              <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class=" object-cover object-center rounded" width="800px" height="600px" alt="hero" src="./assets/undraw_coding_6mjf.svg">
+              </div>
+            </div>
+          </section>
+          <section class="text-gray-600 body-font wave pt-0 mt-0">
+            <div class="container px-5 py-60 mx-auto flex flex-wrap ">
+              <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+                <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                </div>
+                <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-red-500 text-white relative z-10 title-font font-medium text-sm">1</div>
+                <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                  <div class="flex-shrink-0 w-24 h-24 bg-red-100 text-red-500 rounded-full inline-flex items-center justify-center">
+                    <img width="77px" src="./assets/undraw_open_source_1qxw.png" alt="Open Source">
+                  </div>
+                  <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                    <h2 class="font-medium title-font text-red-600 mb-1 text-xl">Development/Open Source Contributions</h2>
+                    <p class="leading-relaxed">Languages that I know C++, JAVA, JavaScript, using which I have used technologies like React-Native, ReactJS, Flutter. and when it comes to Open source Contributions, I have been a particapant in GSSOC'21, and till nows i have scored more than 50 scores with 11 commits in 3 diffrent projects and actively particapating in the program </p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+                <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                </div>
+                <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-red-500 text-white relative z-10 title-font font-medium text-sm">2</div>
+                <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                  <div class="flex-shrink-0 w-24 h-24 bg-red-100 text-red-500 rounded-full inline-flex items-center justify-center">
+                    <img width="77px" src="./assets/undraw_drone_race_0sim.png" alt="Competitive">
+                  </div>
+                  <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                    <h2 class="font-medium title-font text-red-600 mb-1 text-xl">Competitive coding</h2>
+                    <p class="leading-relaxed">I am ⭐⭐⭐ on codechef and actively particapating in commpetive events.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+                <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                </div>
+                <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-red-500 text-white relative z-10 title-font font-medium text-sm">3</div>
+                <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                  <div class="flex-shrink-0 w-24 h-24 bg-red-100 text-red-500 rounded-full inline-flex items-center justify-center">
+                   <img width="77px" src="./assets/undraw_interview_rmcf.png" alt="Intership">
+                  </div>
+                  <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                    <h2 class="font-medium title-font text-red-600 mb-1 text-xl">Internship / Freelancing</h2>
+                    <p class="leading-relaxed">Actively searching for Intership and Freelancing oppurtinties </p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+                <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                  <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                </div>
+                <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-red-500 text-white relative z-10 title-font font-medium text-sm">4</div>
+                <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                  <div class="flex-shrink-0 w-24 h-24 bg-red-100 text-red-500 rounded-full inline-flex items-center justify-center">
+                    <img width="77px" src="./assets/undraw_career_progress_ivdb.png" alt="Job">
+                  </div>
+                  <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                    <h2 class="font-medium title-font text-red-600 mb-1 text-xl">More Skills</h2>
+                    <p class="leading-relaxed">Photography is something that love to do in addition to Coding and I am a noob guitarist</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="text-gray-600 body-font">
+            <div class="container px-5 py-10 mx-auto">
+              <div class="flex flex-wrap w-full mb-20">
+                <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+                  <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Projects</h1>
+                  <div class="h-1 w-28 bg-red-500 rounded"></div>
+                </div>
+                <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Long time ago .people who sacrificed their sleep, family, food. laughter and other luxuries of life were SAINTS now, they called Programmers who made ground breaking "Projects". </p>
+              </div>
+              <div class="flex flex-wrap -m-4">
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                  <div class="bg-gray-100 p-6 rounded-lg">
+                    <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://raw.githubusercontent.com/Alik-Kumar-Ghosh/PicoPedia/main/assets/screenshot_1.png" alt="Flutter Torch">
+                    <h3 class="tracking-widest text-red-500 text-xs font-medium title-font">React-Native</h3>
+                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">PicoPedia</h2>
+                    <p class="leading-relaxed  mb-4  text-base">This app was created for showcasing my photos which I have taken and this app is created dynamically so that whenever I upload my photos will directly reach your android devices as soon as possible.</p>
+                    <a href="https://github.com/Alik-Kumar-Ghosh/PicoPedia"> <button class="flex m-auto text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded">Looks nice</button></a>
+                  </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                  <div class="bg-gray-100 p-6 rounded-lg">
+                    <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://raw.githubusercontent.com/Alik-Kumar-Ghosh/Undone_Assignment/main/src/assets/Undone.gif" alt="Flutter Torch">
+                    <h3 class="tracking-widest text-red-500 text-xs font-medium title-font">ReactJS</h3>
+                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Undone_Assignment</h2>
+                    <p class="leading-relaxed  mb-4  text-base">Make corrupted assignment pdf files in seconds it uses React Js, Tailwind CSS and AXIOS for intreacting with files. This project is made so that if you unable to complete your assignment in time.</p>
+                    <a href="https://github.com/Alik-Kumar-Ghosh/Undone_Assignment"> <button class="flex m-auto text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded">Looks nice</button></a>
+                  </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                  <div class="bg-gray-100 p-6 rounded-lg">
+                    <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://raw.githubusercontent.com/Alik-Kumar-Ghosh/bMi/main/assets/screenshot_1.png" alt="content">
+                    <h3 class="tracking-widest text-red-500 text-xs font-medium title-font">React-Native</h3>
+                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">bMi</h2>
+                    <p class="leading-relaxed  mb-4  text-base">bMi is free app that allows you to monitor BMI and percentage of fat in your body.Ideal weight - app calculates the ideal weight you should gain.To calculate it app uses. Basic utility android app.</p>
+                    <a href="https://github.com/Alik-Kumar-Ghosh/bMi"> <button class="flex m-auto text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded">Looks nice</button></a>
+                  </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                  <div class="bg-gray-100 p-6 rounded-lg">
+                    <img class="h-40 rounded w-full  object-center mb-6" width="90px" height="90px" src="https://raw.githubusercontent.com/Alik-Kumar-Ghosh/Horoscope/master/Screen%20cast.gif" alt="content">
+                    <h3 class="tracking-widest text-red-500 text-xs font-medium title-font">JS, Html, Css</h3>
+                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Horoscope</h2>
+                    <p class="leading-relaxed mb-4 text-base">Its a simple website that tells you your todays horoscope , and if you don't know your zodiac sign it can help you in finding that too. It uses basic HTML, CSS, JS and jquery-3 , Fetch for API call.</p>
+                   <a href="https://github.com/Alik-Kumar-Ghosh/Horoscope"> <button class="flex m-auto text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded">Looks nice</button></a>
+                  </div>
+                </div>
+            </div>
+            <a href="https://github.com/Alik-Kumar-Ghosh">
+            <button class="mt-10 flex m-auto text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded">More Projects</button>
+            </a>
+          </section>
+          <section class="text-gray-600 body-font">
+            <div class="container px-5 py-10 mx-auto">
+              <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">My Certificates</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">"Desire is the starting point of all achievement, not a hope, not a wish, but a keen pulsating desire which transcends everything."</p>
+              </div>
+              <div class="flex flex-wrap -m-2">
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                  <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://media-exp1.licdn.com/dms/image/C4E0BAQFgocdTGHthDA/company-logo_200_200/0/1581351014172?e=1628726400&v=beta&t=sVf5YXfLmLDsg20Rce6cE4ppKY2WpqS0rpt6qQCiNPE">
+                    <div class="flex-grow">
+                      <h2 class="text-gray-900 title-font font-medium">Networking Security</h2>
+                      <p class="text-gray-500">Cisco Networking Academy</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                  <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://media-exp1.licdn.com/dms/image/C4E0BAQFtGwcA77sUpQ/company-logo_200_200/0/1541773650338?e=1628726400&v=beta&t=Ff5eaI_P0wMrcFI8vW9S8QHjafadhqfMwm1izVEH8yw">
+                    <div class="flex-grow">
+                      <h2 class="text-gray-900 title-font font-medium">Marketing Analytics</h2>
+                      <p class="text-gray-500">University of virgina</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                  <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://media-exp1.licdn.com/dms/image/C4E0BAQEBG25KNBwuCQ/company-logo_200_200/0/1616103040374?e=1628726400&v=beta&t=vVMA_BR8-dt0pNzM0oM8gsRqizAsCod7vPBrhAxr7-c">
+                    <div class="flex-grow">
+                      <h2 class="text-gray-900 title-font font-medium">The Strategy of Content Marketing</h2>
+                      <p class="text-gray-500">University of California, Davis</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                  <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://media-exp1.licdn.com/dms/image/C4D0BAQHhvrREsBjg3w/company-logo_200_200/0/1614968575107?e=1628726400&v=beta&t=BrJv5sgPevPWMkh4PCYhJZmrH4Hp1oz7Ml7JCNbWw9w">
+                    <div class="flex-grow">
+                      <h2 class="text-gray-900 title-font font-medium">DynamoDB – Architecture and Features</h2>
+                      <p class="text-gray-500">Amazon Web Services (AWS)</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                  <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://media-exp1.licdn.com/dms/image/C4E0BAQF0Pio1jLn8pg/company-logo_200_200/0/1519856226385?e=1628726400&v=beta&t=e6COW0NE_OpfrwYKyekD5hPI0ntwm09DCC_5ytcc5GQ">
+                    <div class="flex-grow">
+                      <h2 class="text-gray-900 title-font font-medium">Computer Vision</h2>
+                      <p class="text-gray-500">University at Buffalo & The State University of New York</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                  <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://media-exp1.licdn.com/dms/image/C4D0BAQGexnfBxeEG-g/company-logo_200_200/0/1608039227697?e=1628726400&v=beta&t=TID6BbRSZsyw9omsBfv8ef7TOL17Nqp_XWoUWR7ABFQ">
+                    <div class="flex-grow">
+                      <h2 class="text-gray-900 title-font font-medium">RESTful API with HTTP and JavaScript</h2>
+                      <p class="text-gray-500">Coursera</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                  <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://media-exp1.licdn.com/dms/image/C4D0BAQHiNSL4Or29cg/company-logo_200_200/0/1519856215226?e=1628726400&v=beta&t=oeTqnAyLIzTHUIsEQGF2XzvOrT_3Vv3ZFN9aX3TXycg">
+                    <div class="flex-grow">
+                      <h2 class="text-gray-900 title-font font-medium">Industrial IoT on Google Cloud Platform</h2>
+                      <p class="text-gray-500">Google Cloud Platform Certified</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                  <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://media-exp1.licdn.com/dms/image/C4D0BAQHiNSL4Or29cg/company-logo_200_200/0/1519856215226?e=1628726400&v=beta&t=oeTqnAyLIzTHUIsEQGF2XzvOrT_3Vv3ZFN9aX3TXycg">
+                    <div class="flex-grow">
+                      <h2 class="text-gray-900 title-font font-medium">Google hash code</h2>
+                      <p class="text-gray-500">Google</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                  <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://media-exp1.licdn.com/dms/image/C4D0BAQHhvrREsBjg3w/company-logo_200_200/0/1614968575107?e=1628726400&v=beta&t=BrJv5sgPevPWMkh4PCYhJZmrH4Hp1oz7Ml7JCNbWw9w">
+                    <div class="flex-grow">
+                      <h2 class="text-gray-900 title-font font-medium">Network Ninja to Cloud Ninja</h2>
+                      <p class="text-gray-500">Amazon Web Services (AWS)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="https://www.linkedin.com/in/alik-kumar-ghosh-9638571a6">
+            <button class="flex m-auto text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded">More Certificates</button>
+            </a>
+          </section>
+          <section class="text-gray-600 body-font">
+            <div class="container px-5 mt-20 mx-auto flex items-center md:flex-row flex-col">
+              <div class="flex flex-col md:pr-10 md:mb-0 mb-6 pr-0 w-full md:w-auto md:text-left text-center">
+                <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1"> Avaliable production android apps</h2>
+                <h1 class="md:text-3xl text-2xl font-medium title-font text-gray-900">Download apps from : </h1>
+              </div>
+              <div class="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4">
+              <a href="https://play.google.com/store/apps/developer?id=Alik+Kumar+Ghosh">
+                <img width="190px" height="70px" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png">
+              </a>
+              <a href="https://www.amazon.in/Apps-for-Android-Alik-kumar-ghosh/s?rh=n%3A1661666031%2Cp_4%3AAlik+kumar+ghosh">
+                <img width="180px" height="60px"src="https://exelerus.com/mobiledev/amazon/img/background2.png" >
+              </a>
+              </div>
+            </div>
+          </section>
+          <section class="text-gray-600 body-font">
+            <div class="container px-5 mt-0 mx-auto flex items-center md:flex-row flex-col mb-12">
+              <div class="flex flex-col md:pr-10 md:mb-0 mb-6 pr-0 w-full md:w-auto md:text-left text-center">
+                <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1"> Unsplash and Medium</h2>
+                <h1 class="md:text-3xl text-2xl font-medium title-font text-gray-900">Follow me on : </h1>
+              </div>
+              <div class="flex md:ml-auto items-center space-x-4">
+              <a href="https://unsplash.com/@alikghosh/">
+                <img class="rounded" width="180px"  src="./assets/unsplash.png">
+              </a>
+              <a href="https://alik-kumar-ghosh.medium.com/">
+                <img class="rounded" width="180px" height="90px"src="https://miro.medium.com/max/8976/1*Ra88BZ-CSTovFS2ZSURBgg.png" >
+              </a>
+              </div>
+            </div>
+          </section>
+          <section class="text-gray-600 body-font">
+            <div class="container px-5 mx-auto">
+              <div class="xl:w-1/2 lg:w-3/4 w-full py-24 mx-auto text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
+                  <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                </svg>
+                <p class="leading-relaxed text-lg">Again, you can't connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future. You have to trust in something - your gut, destiny, life, karma, whatever. This approach has never let me down, and it has made all the difference in my life.</p>
+                <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
+                <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Steve jobs</h2>
+                <p class="text-gray-500">Co-Founder and CEO (Apple.inc)</p>
+              </div>
+            </div>
+          <footer class="text-gray-600 body-font">
+            <div class="container px-5 py-2 mx-auto flex items-center sm:flex-row flex-col">
+              <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                <span class="ml-3 text-xl text-color-red">AKG</span>
+              </a>
+              <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2021 AKG —
+                <a href="https://github.com/Alik-Kumar-Ghosh" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@Alik Kumar Ghosh</a>
+              </p>
+              <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                <a class="ml-3 text-gray-500" href="https://www.instagram.com/alikghosh09/" >
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                  </svg>
+                </a>
+                <a class="ml-3 text-gray-500" href="https://www.linkedin.com/in/alik-kumar-ghosh-9638571a6">
+                  <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                    <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                  </svg>
+                </a>
+              </span>
+            </div>
+          </footer>
+       <script
+          src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+          integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+          crossorigin="anonymous"
+        ></script>
+        <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+        <script src="js/intro.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
 </body>
-<script src="./js/script.js"></script>
 </html>

@@ -1,0 +1,99 @@
+
+.wave{
+    position: relative;
+    background-color: #15051f;
+    z-index: -100;
+}
+.wave::before{
+  content:'';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height:257px;
+  background:url(../assets/wave.png);
+  background-repeat: no-repeat;
+}
+
+
+
+  .intro {
+    background: rgb(30, 2, 41);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* z-index: 3;*/
+  }
+  .slider {
+    background: rgb(88, 25, 189);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    /*z-index:3;*/
+  }
+  
+  .intro-text {
+    color: rgb(233, 233, 233);
+    font-family: 'Bungee Outline', cursive;
+    font-size: 3rem;
+  }
+  
+  .hide {
+    text-align:justify;
+    overflow: hidden;
+  }
+  
+  .hide span {
+    transform: translateY(100%);
+    display: inline-block;
+  }
+  
+
+*{
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.home-area{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -9;
+}
+
+.fullscreen { 
+  object-fit: cover;
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index:-10;
+}
+a{
+  color: #d6efc7;
+}
+
+.text-color-orange{
+  color: #ed5107;
+  font-weight: 600;
+}
+
+.text-color-red{
+  color: #c70d3a;
+}
