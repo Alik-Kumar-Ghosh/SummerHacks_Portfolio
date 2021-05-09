@@ -39,6 +39,16 @@ npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat @tailwindcss/postcss
 npm insatll purgecss
 
 ```
+
+---
+
+### Optimization
+
+```
+
+Used : PurgeCSS to remove unused CSS.
+
+```
  
  ### ScreenCast
  
