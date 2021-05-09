@@ -9,7 +9,7 @@ live site : http://akgware.rf.gd/?i=1
 
 ### Technologies Used
 `<HTML, CSS, JS> ` <br>
-` <TailWind CSS> `<br>
+`<TailWind CSS> `<br>
 `<Purge CSS>` <br>
 
 [https://purgecss.com/](https://purgecss.com/) <br>
